@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(1, 4, 68, 0.932);
+    color: #FFF;
+    padding: 0% 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Poppins' , Georgia, 'Times New Roman', Times, serif;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.contacts span {
+    padding: 0px 10px;
+}
+
+.bodycontainer {
+    background: rgb(222, 222, 223);
+    color: #000;
+    margin: 0% 5%;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    font-size: 14px;
+}
+
+.bodycontainer label {
+    font-size: 25px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.companyone{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.companyone .company {
+    font-size:  16px;
+    font-weight: 600;
+}
+
+.companyone .jobtitle {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.companyone .worked {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.companyone .responsibilities {
+    padding-left: 20px;
+    padding-right: 20px;
+}
