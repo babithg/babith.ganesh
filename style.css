@@ -52,6 +52,7 @@
     padding: 10px;
     display: flex;
     font-size: 14px;
+    justify-content: space-around;
 }
 
 .bodycontainer label {
