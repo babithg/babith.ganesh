@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 *{
     margin: 0;
@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(1, 4, 68, 0.932);
+    background: #03045e;
     color: #FFF;
     padding: 0% 50px;
     border-bottom-left-radius: 10px;
@@ -57,7 +57,7 @@
 
 .bodycontainer label {
     font-size: 25px;
-    color: blue;
+    color: #023e8a;
     text-decoration: underline;
 }
 
@@ -82,8 +82,49 @@
     font-weight: 500;
 }
 
-
 .companyone .responsibilities {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.projecttitle {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.education .school{
+    font-weight: 600;
+}
+
+.education .yearpassout {
+    font-weight: 500;
+}
+
+.languages ul li span {
+    font-weight: 500;
+}
+
+.languages ul{
+    padding-left: 20px;
+}
+
+.scoredmark ul {
+    padding-left: 20px;
+}
+
+.lists {
+    display: flex;
+}
+
+.lists p {
+    background: #90e0ef;
+    margin: 10px ;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.socialmedia a{
+    text-decoration: none;
+    color: #FFF;
 }
